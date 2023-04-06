@@ -1,0 +1,71 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.card-img-top {
+  padding: 2px;
+  width: auto;
+  height: 175px;
+  object-fit:cover;
+}
+
+/* .btn-primary{
+  background-color: rgb(94, 93, 93);
+  border-color: rgb(51, 50, 50);
+  
+  
+  
+} */
+
+.btn-primary {
+  color: #fff;
+  background-color: #28292b;
+  border-color: #262728;
+}
+
+.btn:hover{
+  color: white;
+  background-color:gray;
+  border-color: #6e7072 ;
+}
+
+.card-group{
+  width: auto;
+  align-items: center;
+  align-self: center;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-body{
+  width: 300px;
+  height: 140px;
+  padding-left: 10px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
